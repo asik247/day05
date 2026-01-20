@@ -9,12 +9,21 @@
     <h1>This Is Js Code Here.</h1>
     <p id="">Lorem ipsum dolor sit amet.</p>
     <p id="para"></p>
+    <p id="para2"></p>
     <script>
         function sayHi(){
             return "hi everybody"
         }
         let result = sayHi()
         document.getElementById("para").innerHTML=result
+        // another funck
+        function sayHello(){
+            return"hello iam sayHello function calling"
+        }
+        function showHello(){
+            document.getElementById("para2").innerHTML=sayHello()
+        }
+        showHello()
     </script>
 </body>
 </html>
