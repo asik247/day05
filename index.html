@@ -10,6 +10,7 @@
     <p id="">Lorem ipsum dolor sit amet.</p>
     <p id="para"></p>
     <p id="para2"></p>
+    <h2 id="headder"></h2>
     <script>
         function sayHi(){
             return "hi everybody"
@@ -24,6 +25,11 @@
             document.getElementById("para2").innerHTML=sayHello()
         }
         showHello()
+        function welcome(){
+           return "welcome tomeder";
+        }
+       let wel =  welcome()
+       document.getElementById("headder").innerHTML = wel;
     </script>
 </body>
 </html>
